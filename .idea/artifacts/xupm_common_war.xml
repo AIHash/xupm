@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="xupm-common:war">
+    <output-path>$PROJECT_DIR$/xupm-common/target</output-path>
+    <root id="archive" name="xupm-common.war">
+      <element id="artifact" artifact-name="xupm-common:war exploded" />
+    </root>
+  </artifact>
+</component>

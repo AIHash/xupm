@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xupm-api" />
+        <module name="xupm-client" />
+        <module name="xupm-common" />
+        <module name="xupm-dao" />
+        <module name="xupm-server" />
+        <module name="xupm-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="xupm" target="1.5" />
+      <module name="xupm-api" target="1.5" />
+      <module name="xupm-client" target="1.5" />
+      <module name="xupm-common" target="1.5" />
+      <module name="xupm-dao" target="1.5" />
+      <module name="xupm-server" target="1.5" />
+      <module name="xupm-service" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

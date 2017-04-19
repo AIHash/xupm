@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="xupm-client:war exploded">
+    <output-path>$PROJECT_DIR$/xupm-client/target/xupm-client</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="xupm-client" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/xupm-client/target/xupm-client/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="xupm-client/web/Web" />
+    </root>
+  </artifact>
+</component>
