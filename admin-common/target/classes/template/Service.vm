@@ -1,0 +1,13 @@
+package ${package_name}.rpc.api;
+
+import com.zheng.common.com.xuqian.admin.common.base.com.xuqian.admin.common.annotation.BaseService;
+import ${package_name}.dao.model.${model};
+import ${package_name}.dao.model.${model}Example;
+
+/**
+* ${model}Service接口
+* Created by xuqian on ${ctime}.
+*/
+public interface ${model}Service extends com.xuqian.admin.common.annotation.BaseService<${model}, ${model}Example> {
+
+}

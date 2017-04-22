@@ -9,23 +9,11 @@
   <modules>
     <module>xupm-common</module>
     <module>xupm-dao</module>
-    <module>xupm-service</module>
     <module>xupm-api</module>
-    <module>xupm-client</module>
-    <module>xupm-server</module>
   </modules>
 
   <name>xupm</name>
   <url>http://maven.apache.org</url>
-
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
 
   <build>
     <finalName>xupm</finalName>

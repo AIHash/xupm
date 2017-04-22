@@ -6,16 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="xupm-api" />
-        <module name="xupm-client" />
+        <module name="admin-common" />
+        <module name="admin-resources" />
         <module name="xupm-common" />
         <module name="xupm-dao" />
-        <module name="xupm-server" />
-        <module name="xupm-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="admin-common" target="1.7" />
+      <module name="admin-resources" target="1.5" />
       <module name="xupm" target="1.5" />
+      <module name="xupm-admin-common" target="1.7" />
+      <module name="xupm-admin-ui" target="1.5" />
       <module name="xupm-api" target="1.5" />
       <module name="xupm-client" target="1.5" />
       <module name="xupm-common" target="1.5" />

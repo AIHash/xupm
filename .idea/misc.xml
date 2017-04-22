@@ -15,24 +15,20 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/admin-common/pom.xml" />
+        <option value="$PROJECT_DIR$/admin-resources/pom.xml" />
+        <option value="$PROJECT_DIR$/xupm-admin-common/pom.xml" />
+        <option value="$PROJECT_DIR$/xupm-admin-ui/pom.xml" />
+        <option value="$PROJECT_DIR$/xupm-api/pom.xml" />
+        <option value="$PROJECT_DIR$/xupm-client/pom.xml" />
+        <option value="$PROJECT_DIR$/xupm-server/pom.xml" />
+        <option value="$PROJECT_DIR$/xupm-service/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8 (1)" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8 (1)</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
